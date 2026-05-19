@@ -2,6 +2,8 @@
 
 ## Project Overview
 In typical corporate cloud environments, development and staging servers are frequently left running 24/7, despite being idle outside of standard business hours (weekends and nights). This project implements an event-driven, serverless automation system that automatically shuts down non-essential development instances at night and spins them back up in the morning, reducing idle EC2 computing costs by up to **65%**.
+## Architecture Diagram
+<img width="642" height="72" alt="CostOptimization drawio" src="https://github.com/user-attachments/assets/fe89f298-920b-49d6-8b97-290087f53437" />
 
 ## AWS Services & Tech Stack Used
 * **Amazon EC2:** Hosted virtual servers categorized by tags (`Environment: Development` vs `Environment: Production`).
